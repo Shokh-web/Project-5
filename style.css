@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'REM', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #C7F6FC;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 150px;
+}
+
+.leftbox {
+    width: 40%;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.158), rgba(0, 0, 255, 0.103)), url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.p1 {
+    color: white;
+    padding: 12px 0;
+}
+
+.file {
+    width: 130px;
+    background-color: rgba(127, 255, 212, 0.719);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+    align-items: center;
+}
+
+.p2 {
+    padding: 0 7px;
+}
+
+.rightbox {
+    width: 55%;
+    background-color: white;
+    padding: 25px 40px;
+    /* overflow: hidden; */
+
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.years {
+   background-color: white;
+    overflow: auto;
+    
+}
+
+
+.years::-webkit-scrollbar {
+     width: 20px;
+    
+    
+}
+
+
+
+
+.yearss {
+    width: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.year {
+    color: rgba(128, 128, 128, 0.459);
+    transition: 0.6s;
+    
+}
+
+.year:hover {
+    color: black;
+    
+}
+
+.items {
+    width: 60%;
+   
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+
+
+
+.lorem2 {
+    padding: 0 10px;
+    font-size: 13px;
+}
+.avatar {
+    width: 20%;
+}
+
+.avatar2 {
+    border-radius: 50px;
+}
+
+.avatar3 {
+    border-radius: 50px;
+}
+
+.all2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.box2 {
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.p3 {
+    font-size: 35px;
+    padding: 0 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p4, .p5 {
+    font-size: 12px;
+    
+}
+
+.p4 {
+    font-weight: bold;
+}
+
+@media (max-width:1100px) {
+    .all {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width:850px) {
+    .rightbox, .leftbox {
+        width: 100%;
+    }
+    .yearss {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
